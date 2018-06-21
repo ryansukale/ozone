@@ -1,0 +1,9 @@
+// https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/
+// truncate text with plain HTML and CSS, for dynamic content
+.oz-text {
+  &--ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
